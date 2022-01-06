@@ -3,6 +3,8 @@ import Home from './views/Home/Home';
 import Login from './views/Login/Login';
 import Profile from './views/Profile/Profile';
 import Register from './views/Register/Register';
+import { UserProvider } from './context/UserContext';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 export default function App() {
   return (
